@@ -1,0 +1,45 @@
+.interfaceJeu{
+    background-image: url("bg.png");
+    height: 500px;
+    background-size: contain;
+    cursor:crosshair;
+}
+
+.duck{
+    width:60px;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 20s;
+}
+
+@-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;    
+    }
+  }
+  
+
+.commencer{
+    background-color: blue;
+    color:white;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+
+.divCommencer{
+    text-align: center;
+}
+
+#points{
+    font-size:30px
+}
+
+#timer{
+    font-size:30px
+}
